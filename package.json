@@ -1,0 +1,29 @@
+{
+  "name": "Factory",
+  "version": "0.1.0",
+  "description": "Boilerplate for ES6 client-based library. Uses Babel and webpack for transpiling and building, Karma and Jasmine for unit testing, and Istanbul/Isparta for code coverage.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack --display-modules --display-error-details --watch",
+    "start": "node server.js & npm run dev"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "webpack"
+  ],
+  "author": "Tomek Jezierski",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
